@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  text-shadow: 4px 5px rgb(37, 159, 225);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+  padding: 10px;
+  border-color: blueviolet;
+  border-block: solid blueviolet;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+  padding: 25px;
+}
+.book-card{
+  text-align: center;
+  border: 2px solid black;
+    padding: 6px;
+  border-radius: 8px;
+  margin: 8px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 6px 11px rgba(42, 188, 237, 0.8);
+}
+
+.booksearch{
+  padding:4px;
+  text-align: center;
+  
+}
+
+.inputbox{
+  margin-left: 50px;
+  box-shadow: 7px 14px rgb(18, 141, 207);
+  font-size: medium;
+  padding: 10px;
+  
+
+}
+
+.inputbox:hover {
+  color: #2b11ed;
+}
+
+.booksearch{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+
+}
+.message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+.mybookshelf{
+
+text-align: center;
+border: 2px solid black;
+border-radius: 8px;
+margin: 32px;
+width: 200px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: 0 6px 11px rgba(42, 188, 237, 0.8);
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 16px;
+padding: 16px;
+}
